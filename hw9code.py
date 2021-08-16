@@ -101,4 +101,3 @@ def creat_email(names = ["student", "parent", "teacher"],domains = ["net", "com"
     e_mail = f"{random.choice(names)}.{randint(100, 1000)}@{''.join(choice(ascii_lowercase) for i in range(randint(5,7)))}.{random.choice(domains)}"
     return e_mail
 print(creat_email())
-
