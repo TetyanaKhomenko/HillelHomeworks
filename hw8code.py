@@ -67,7 +67,7 @@ my_str2 = "?gj123aaa"
 my_intersection = set(my_str1).intersection(set(my_str2))
 res_list = []
 for symbol in my_intersection:
-    if my_str1.count(symbol) == 1:
+    if my_str1.count(symbol) == 1 and my_str2.count(symbol) == 1:
         res_list.append(symbol)
 print(res_list)
 
